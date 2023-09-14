@@ -34,4 +34,12 @@ public class Client {
     public List<WorkflowStatus> getWorkflow() {
         return this.workflow;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                " fields='" + getFields() + "'" +
+                ", workflow='" + getWorkflow() + "'" +
+                "}";
+    }
 }
