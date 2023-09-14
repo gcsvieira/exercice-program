@@ -13,7 +13,6 @@ public class App {
         String nameClient;
         int cnpj;
         String contact;
-        String temp;
         String dataApresentacao;
         String produto;
         int propostaValor;
